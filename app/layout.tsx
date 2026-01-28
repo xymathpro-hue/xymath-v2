@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'XYMath',
-  description: 'Plataforma educacional',
+  title: 'XYMath - Plataforma Educacional',
+  description: 'Sistema para professores de matemática',
 };
 
 export default function RootLayout({
@@ -10,7 +10,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-BR">
-      <body>{children}</body>
+      <body style={{ margin: 0, fontFamily: 'Arial, sans-serif' }}>
+        {children}
+      </body>
     </html>
   );
 }
