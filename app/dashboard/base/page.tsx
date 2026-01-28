@@ -163,7 +163,7 @@ export default function BasePage() {
             <h2>Habilidades BNCC Monitoradas</h2>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '15px', marginTop: '20px' }}>
               {habilidades.map((habilidade) => {
-                const classificacao = calcularClassificacao(0, 10); // Mock - depois vem do banco
+                const classificacao = calcularClassificacao(0, 10);
                 
                 return (
                   <div key={habilidade.id} style={{ 
