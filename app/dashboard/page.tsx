@@ -83,10 +83,13 @@ export default function DashboardPage() {
               <p style={{ color: '#0070f3', marginTop: '10px', fontWeight: 'bold' }}>Clique para acessar →</p>
             </div>
             
-            <div style={{ border: '1px solid #ddd', padding: '20px', borderRadius: '8px' }}>
-              <h3>Gestão de Professores</h3>
-              <p>Visualize e gerencie todos os professores</p>
-              <p style={{ color: '#666', fontSize: '14px', marginTop: '10px' }}>Em breve</p>
+            <div 
+              style={{ border: '1px solid #ddd', padding: '20px', borderRadius: '8px', cursor: 'pointer' }} 
+              onClick={() => router.push('/dashboard/turmas')}
+            >
+              <h3>Gestão Escolar</h3>
+              <p>Cadastre turmas, alunos e organize sua rede</p>
+              <p style={{ color: '#0070f3', marginTop: '10px', fontWeight: 'bold' }}>Clique para acessar →</p>
             </div>
             
             <div style={{ border: '1px solid #ddd', padding: '20px', borderRadius: '8px' }}>
